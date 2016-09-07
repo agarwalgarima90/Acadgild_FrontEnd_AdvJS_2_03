@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 03</title>
+<style>
+	span {
+		color: green;
+	}
+</style>
+<script>
+
+	window.onload = function() {
+		var person = {fname: "Garima", lname: "Agarwal", email: "garima@gmail.com", phone: "8787878787" };
+		document.getElementById("fname").innerHTML = person.fname;
+		document.getElementById("lname").innerHTML = person.lname;
+		document.getElementById("email").innerHTML = person.email;
+		document.getElementById("phone").innerHTML = person.phone;
+	}
+	
+</script>
+</head>
+<body>
+	First Name: <span id="fname"></span>
+	<br>
+	Last Name: <span id="lname"></span>
+	<br>
+	Email: <span id="email"></span>
+	<br>
+	Phone Number: <span id="phone"></span>
+</body>
+</html>
